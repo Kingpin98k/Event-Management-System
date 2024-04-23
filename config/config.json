@@ -1,0 +1,28 @@
+{
+  "development": {
+    "username": "default",
+    "password": "EY7vBAZdNRW0",
+    "database": "verceldb",
+    "host": "ep-small-mud-a1vzftzj-pooler.ap-southeast-1.postgres.vercel-storage.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "postgres",
+    "password": "milan2024",
+    "database": "ebdb",
+    "host": "awseb-e-m2puxydbtp-stack-awsebrdsdatabase-i9nnqw4v2kon.ckci7ohurjfc.ap-south-1.rds.amazonaws.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
